@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<!--App-->
+	<data name="AppName" xml:space="preserve">
+	    <value>Starving</value>
+	    <comment></comment>
+	</data>
+	<data name="LoginWithFacebook" xml:space="preserve">
+	    <value>Login with Facebook</value>
+	    <comment></comment>
+	</data>
+	<data name="FacebookLoginFail" xml:space="preserve">
+	    <value>Facebook acount was not linked</value>
+	    <comment></comment>
+	</data>
+	<data name="OK" xml:space="preserve">
+	    <value>OK</value>
+	    <comment></comment>
+	</data>
+	<data name="AppDescription" xml:space="preserve">
+	    <value>Find new places to go eat near of you</value>
+	    <comment></comment>
+	</data>
+	<data name="Done" xml:space="preserve">
+	    <value>DONE</value>
+	    <comment></comment>
+	</data>
+	<data name="CreateReview" xml:space="preserve">
+	    <value>CREATE REVIEW</value>
+	    <comment></comment>
+	</data>
+	<data name="HaveBeenInThisPlace" xml:space="preserve">
+	    <value>Have been at</value>
+	    <comment></comment>
+	</data>
+	<data name="ShareReview" xml:space="preserve">
+	    <value>Share with other people a short review</value>
+	    <comment></comment>
+	</data>
+	<data name="EnableGPS" xml:space="preserve">
+	    <value>Please Verify your GPS is enabled</value>
+	    <comment></comment>
+	</data>
+	<data name="NoInternet" xml:space="preserve">
+	    <value>Please Verify your internet connection</value>
+	    <comment></comment>
+	</data>
+	<data name="TryAgain" xml:space="preserve">
+	    <value>RELOAD</value>
+	    <comment></comment>
+	</data>
+	<data name="SeeLikes" xml:space="preserve">
+	    <value>See likes</value>
+	    <comment></comment>
+	</data>
+	<data name="UsersWhoLikes" xml:space="preserve">
+	    <value>People who likes this place:</value>
+	    <comment></comment>
+	</data>
+	<data name="NoReviews" xml:space="preserve">
+	    <value>No reviews to show</value>
+	    <comment></comment>
+	</data>
+	<data name="RetrievingReviews" xml:space="preserve">
+	    <value>Retrieving reviews</value>
+	    <comment></comment>
+	</data>
+	<data name="OK" xml:space="preserve">
+	    <value>OK</value>
+	    <comment></comment>
+	</data>
+	<data name="ReviewFieldEmpty" xml:space="preserve">
+	    <value>Review field can't be empty</value>
+	    <comment></comment>
+	</data>
+	<data name="RetrievingLikes" xml:space="preserve">
+	    <value>Retrieving likes</value>
+	    <comment></comment>
+	</data>
+	<data name="NoLikesToShow" xml:space="preserve">
+	    <value>No body likes this place yet</value>
+	    <comment></comment>
+	</data>
+	<data name="NoPlacesToShow" xml:space="preserve">
+	    <value>No places to show</value>
+	    <comment></comment>
+	</data>
+	<data name="RetrievingPlaces" xml:space="preserve">
+	    <value>Searching places</value>
+	    <comment></comment>
+	</data>
+	<data name="LikePlaces" xml:space="preserve">
+	    <value>You loved this place</value>
+	    <comment></comment>
+	</data>
+	<data name="DislikePlaces" xml:space="preserve">
+	    <value>You don't like this place</value>
+	    <comment></comment>
+	</data>
+	<data name="PlacesListHeader" xml:space="preserve">
+	    <value>Here you have some near places where you can go to eat</value>
+	    <comment></comment>
+	</data>
+	<data name="SecondsAgo" xml:space="preserve">
+	    <value>seconds ago</value>
+	    <comment></comment>
+	</data>
+	<data name="MinutesAgo" xml:space="preserve">
+	    <value>minutes ago</value>
+	    <comment></comment>
+	</data>
+	<data name="HoursAgo" xml:space="preserve">
+	    <value>hours ago</value>
+	    <comment></comment>
+	</data>
+	<data name="DaysAgo" xml:space="preserve">
+	    <value>hours ago</value>
+	    <comment></comment>
+	</data>
+	<data name="Liked" xml:space="preserve">
+	    <value>liked</value>
+	    <comment></comment>
+	</data>
+	<data name="TakeMeThere" xml:space="preserve">
+	    <value>Take me there</value>
+	    <comment></comment>
+	</data>
+	<data name="MyLatestReviews" xml:space="preserve">
+	    <value>My latest reviews</value>
+	    <comment></comment>
+	</data>
+	<data name="SearchPlaces" xml:space="preserve">
+	    <value>Search places</value>
+	    <comment></comment>
+	</data>
+	<data name="JustNow" xml:space="preserve">
+	    <value>Just now</value>
+	    <comment></comment>
+	</data>
+</root>
