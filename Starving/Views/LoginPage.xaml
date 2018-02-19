@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    xmlns:controls="clr-namespace:Starving.Controls;assembly=Starving"
+    xmlns:converters="clr-namespace:Starving.Converters;assembly=Starving"
+    xmlns:i18n="clr-namespace:Starving;assembly=Starving"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    x:Class="Starving.Views.LoginPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InverseBoolConverter x:Key="InverseBoolConverter"></converters:InverseBoolConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout
+            Padding="40">
+            <StackLayout
+                    IsVisible="{Binding IsAwaiting}">
+                <ActivityIndicator VerticalOptions="Center" HorizontalOptions="Center" IsRunning="true" />
+            </StackLayout>
+            <StackLayout
+                IsVisible="{Binding IsAwaiting, Converter={StaticResource InverseBoolConverter}}">
+                <Entry
+                    Text="{Binding Email}"
+                    Placeholder="{i18n:TranslateExtension Email}" />
+                <Entry
+                    Text="{Binding Password}"
+                    Placeholder="{i18n:TranslateExtension Password}"
+                    IsPassword="true" />
+                <Button
+                    Text="{i18n:TranslateExtension Login}"
+                    Command="{Binding LoginCommand}" />
+                <controls:FacebookButton
+                    HeightRequest="35"
+                    FacebookCallback="{Binding CurrentFacebookCallback}" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

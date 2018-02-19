@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms"
+             x:Class="Starving.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <x:String x:Key="OneSignalAppId">2caa3d3f-bc6d-49e1-8350-dfeab3f04eb5</x:String>
+            <x:String x:Key="GoogleApiKey">AIzaSyB9tN7aQLVrmVPO3d8MbcjtKbljm7XRm5o</x:String>
+            <x:String x:Key="FirebaseApiKey">AIzaSyApVg0Uom4OkG6iWs4mswLcy17OzvcmK3E</x:String>
+            <x:String x:Key="FirebaseBaseUrl">https://starving-1193.firebaseio.com/</x:String>
+            <x:String x:Key="FirebaseRefreshTokenUrl">https://securetoken.googleapis.com/v1/token</x:String>
+            <x:Double x:Key="CurrentLatitud"></x:Double>
+            <x:Double x:Key="CurrentLongitude"></x:Double>
+            <x:Double x:Key="PlaceLatitud"></x:Double>
+            <x:Double x:Key="PlaceLongitude"></x:Double>
+
+            <x:String x:Key="AuthToken"></x:String>
+        </ResourceDictionary>
+	</Application.Resources>
+</prism:PrismApplication>

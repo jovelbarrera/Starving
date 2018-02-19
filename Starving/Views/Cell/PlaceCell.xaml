@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    xmlns:converters="clr-namespace:Starving.Converters;assembly=Starving"
+    x:Class="Starving.Views.Cell.PlaceCell">
+    <!--<ViewCell.BindingContext>
+        <ResourceDictionary>
+            <converters:ByteToImageConverter x:Key="byteToImage"></converters:ByteToImageConverter>
+        </ResourceDictionary>
+    </ViewCell.BindingContext>-->
+    <ViewCell.View>
+        <StackLayout Padding="20,0,0,0" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <converters:ByteToImageConverter x:Key="ByteToImageConverter"></converters:ByteToImageConverter>
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            <Image Source="{Binding PictureBytes, Converter={StaticResource ByteToImageConverter}}"  />
+            <Label Text="{Binding Name}" YAlign="Center" />
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>
